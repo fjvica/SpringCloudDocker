@@ -1,6 +1,10 @@
+ARG MSVC_NAME=msvc-usuarios
+
 FROM openjdk:11.0.16 as builder
 
-WORKDIR /app/msvc-usuarios
+ARG MSVC_NAME
+
+WORKDIR /app/$MSVC_NAME
 
 COPY ./pom.xml /app
 COPY ./msvc-usuarios/.mvn ./.mvn
