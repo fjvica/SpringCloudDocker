@@ -37,3 +37,9 @@
 
 > detener y eliminar docker-compose
 - **docker-compose down**
+
+> detener y eliminar los volumenes y contenedores docker-compose
+- **docker-compose down -v**
+
+> eliminar todas las imagenes forzando su detencion
+- **docker image prune -a**
