@@ -34,3 +34,6 @@
 
 > levantar docker-compose
 - **docker-compose up**
+
+> detener y eliminar docker-compose
+- **docker-compose down**
