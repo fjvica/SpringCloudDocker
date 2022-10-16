@@ -31,3 +31,6 @@
 
 > Arranca un contenedor (de bbdd) con volumenes
 - **docker run -p {puerto pc}:{puerto docker} -d --rm --name {nombre del contenedor} --network {nombre de la red} -e {Variable como MYSQL_ROOT_PASSWORD}={valor} -v {nombre del volumen}:{ruta de guardado} {nombre de la imagen}**
+
+> levantar docker-compose
+- **docker-compose up**
